@@ -1,0 +1,33 @@
+/* Simple List Style */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none; /* Removes bullet points */
+  padding: .5rem;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+li {
+  padding: 15px;
+  border-bottom: 1px solid #ccc; /* Adds a simple divider between list items */
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  border-bottom: none; /* Removes the last divider */
+}
+
+p {
+  margin: 5px 0;
+  word-wrap: break-word;
+  white-space: normal; /* Ensures the text wraps to the next line */
+}
